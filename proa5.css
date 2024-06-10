@@ -1,0 +1,29 @@
+/*personalizacion de index*/
+head{
+    background-color: azure;
+}
+/*personalizacion de index*/
+body{
+    background-color:aqua;
+}
+#boton1{
+    background-color: rgb(41, 117, 60);
+    color:azure;
+}
+#boton2{
+    background-color:rgb(41, 117, 60);
+    color: azure;
+}
+.fondo{
+    background-color:pink;
+    color: azure;
+    width: 30%;
+    height: 800px;
+    margin-left: 1100px;
+    
+}
+.text1{
+    width: 300px;
+    height: 1px;
+}
+
