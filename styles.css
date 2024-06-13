@@ -1,28 +1,61 @@
-/*personalizacion de index*/
-head{
-    background-color: azure;
-}
-/*personalizacion de index*/
+/*Personalizacion del index*/
 body{
-    background-color:aqua;
-}
-#boton1{
-    background-color: rgb(41, 117, 60);
+    background-color:bisque;
     color:azure;
+    margin: 0%;
 }
-#boton2{
-    background-color:rgb(41, 117, 60);
-    color: azure;
+h1{
+    color:azure;
+    background-color:rgba(134, 100, 58, 0.725);
 }
-.fondo{
-    background-color:pink;
-    color: azure;
+/*Personalizacion del Historia*/
+#Historia{
+    width: 69%;
+    margin: 5%;
+    margin-left: 15%;
+    float: left;
+    background-color:rgb(221, 175, 118);
+    border-style: dashed;
+    border-width: 3px;
+
+}
+
+.foto{
     width: 30%;
-    height: 800px;
-    margin-left: 1100px;
-    
+    margin: 1.5%;
+    display: inline-block;
+    vertical-align: middle;
 }
-.text1{
-    width: 300px;
-    height: 1px;
+img{
+    width: 100%;
+}
+.texto{
+    width: 60%;
+    margin: 0%;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.boton{
+    font-size: 21px;
+    font-family: Arial;
+    width: 5%;
+    padding: 2%;
+    border-width: 1px;
+    color:azure;
+    border-color: rgba(0, 0, 0, 0); 
+    border-top-left-radius: 24px;
+    border-top-right-radius: 24px;
+    border-bottom-left-radius: 24px;
+    border-bottom-right-radius: 24px;
+    text-shadow: 5px 5px 0px #2f2f2f;
+    background:linear-gradient(rgba(134, 100, 58, 0.725),rgb(219, 221, 118));
+    text-decoration: none;
+    margin-left: 8%;
+}
+.boton:hover {
+    background:linear-gradient(rgb(219, 221, 118),rgba(134, 100, 58, 0.725)) ;
+}
+#botones {
+    margin-top: 20px;
 }
