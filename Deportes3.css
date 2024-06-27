@@ -6,10 +6,10 @@ body{
 }
 h1{
     color:azure;
-    background-color:rgba(134, 100, 58, 0.725);
+    background-color: rgba(134, 100, 58, 0.725);
 }
 /*Personalizacion del menu */
-#TENIS{
+#ATLETISMO{
     width: 69%;
     margin: 5%;
     margin-left: 15%;

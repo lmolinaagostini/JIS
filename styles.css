@@ -13,7 +13,6 @@ h1{
     width: 69%;
     margin: 5%;
     margin-left: 15%;
-    float: left;
     background-color:rgb(221, 175, 118);
     border-style: dashed;
     border-width: 3px;
@@ -58,4 +57,7 @@ img{
 }
 #botones {
     margin-top: 20px;
+}
+.pagination{
+    margin-left: 35%;
 }
