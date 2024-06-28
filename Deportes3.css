@@ -1,20 +1,25 @@
 /*Personalizacion del index*/
 body{
-    background-color:bisque;
+    background-color:rgba(255, 228, 196, 0.678);
     color:azure;
     margin: 0%;
 }
 h1{
     color:azure;
-    background-color: rgba(134, 100, 58, 0.725);
+    background-color:rgba(153, 103, 43, 0.719);
+}
+li{
+    color:rgb(0, 0, 0);
+}
+h2{
+    color:rgb(0, 0, 0);
 }
 /*Personalizacion del menu */
 #ATLETISMO{
     width: 69%;
     margin: 5%;
     margin-left: 15%;
-    background-color: rgb(221, 175, 118);
-    border-style: dashed;
+    background-color:rgb(241, 212, 175);
     border-width: 3px;
 
 }
@@ -52,13 +57,12 @@ img{
     border-bottom-left-radius: 24px;
     border-bottom-right-radius: 24px;
     text-shadow: 5px 5px 0px #2f2f2f;
-    background:linear-gradient(rgba(134, 100, 58, 0.725),rgb(219, 221, 118));
+    background:linear-gradient(rgb(143, 89, 27),rgb(224, 186, 139));
     text-decoration: none;
 }
 #boton1:hover {
-    background:linear-gradient(rgb(219, 221, 118),rgba(134, 100, 58, 0.725));
-}
-#boton2{
+    background:linear-gradient(rgb(216, 196, 172),rgba(83, 52, 17));
+}#boton2{
     font-size: 21px;
     font-family: Arial;
     width: 5%;
@@ -71,13 +75,12 @@ img{
     border-bottom-left-radius: 24px;
     border-bottom-right-radius: 24px;
     text-shadow: 5px 5px 0px #2f2f2f;
-    background:linear-gradient(rgba(134, 100, 58, 0.725),rgb(219, 221, 118));
+    background:linear-gradient(rgb(143, 89, 27),rgb(224, 186, 139));
     text-decoration: none;
 }
 #boton2:hover {
-    background:linear-gradient(rgb(219, 221, 118),rgba(134, 100, 58, 0.725));
-}
-#boton3{
+    background:linear-gradient(rgb(216, 196, 172),rgba(83, 52, 17));
+}#boton3{
     font-size: 21px;
     font-family: Arial;
     width: 5%;
@@ -90,28 +93,12 @@ img{
     border-bottom-left-radius: 24px;
     border-bottom-right-radius: 24px;
     text-shadow: 5px 5px 0px #2f2f2f;
-    background:linear-gradient(rgba(134, 100, 58, 0.725),rgb(219, 221, 118));
+    background:linear-gradient(rgb(143, 89, 27),rgb(224, 186, 139));
     text-decoration: none;
 }
 #boton3:hover {
-    background:linear-gradient(rgb(219, 221, 118),rgba(134, 100, 58, 0.725));
+    background:linear-gradient(rgb(216, 196, 172),rgba(83, 52, 17));
 }
-#boton4{
-    font-size: 21px;
-    font-family: Arial;
-    width: 5%;
-    padding: 2%;
-    border-width: 1px;
-    color:azure;
-    border-color:black; 
-    border-top-left-radius: 24px;
-    border-top-right-radius: 24px;
-    border-bottom-left-radius: 24px;
-    border-bottom-right-radius: 24px;
-    text-shadow: 5px 5px 0px #2f2f2f;
-    background:linear-gradient(rgb(219, 221, 118),rgba(134, 100, 58, 0.725));
-    text-decoration: none;
-}
-#boton4:hover {
-    background:linear-gradient(rgba(134, 100, 58, 0.725),rgb(219, 221, 118));
+.pagination{
+    margin-left: 45%;
 }
